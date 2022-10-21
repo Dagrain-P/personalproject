@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    /*background: #FFF2F2;*/
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{ 
+    font-family: 'Roboto', sans-serif;     
+}
+
+h1{
+    font-size: 30px;
+    font-weight:700;
+}
+
+h2{
+    font-size:23px;
+    font-weight:600;
+}
+
+h3{
+    font-size: 18px;
+}
+
+/*NAVIGATION STARTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.logo {
+    margin-top: 10px;
+    width:  110px;
+    height: 75px;
+    margin-left: 20 px;
+    float: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+nav ul{
+    float:right;
+    margin-right:20px;
+    margin-top:25px;
+ }
+
+ nav ul li{
+    display: inline-block;
+    margin-right:10px; /* to get text like home & product to be spaced*/
+ }
+nav ul li a{
+    color: #F47C7C;
+    font-size: 18px;
+    font-weight: 700; /* properties of the font requested by assignment*/
+}
+nav ul li a:hover{
+    background: #F47C7C ;/* properties of the navigation requested by assignment*/
+    color: #ffffff;
+    transition: 0.15s;
+}
+ 
+/* This is the end of the navigation bar !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#box-1{
+    height: auto;
+    width: 100%;
+    padding-top: 10px; 
+}
+
+.first-heading{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-left:70px;
+    }
+
+.pictures{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    border-radius: 20px;  /* This not working*/    
+}
+
+.makeup{
+    width: 450px;
+    height: 400px;
+    padding-right: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+
+.blackity-black{
+    width: 450px;
+    height: 400px;
+    padding-right: 20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.wellness{
+    width: 450px;
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:left;
+} 
+/*BOX1 ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+#box-2{
+    width:100%;
+    height:auto;
+    margin-bottom: 20px;    
+}
+
+.second-heading{
+    padding-left: 20px;
+}
+
+.meanings{
+    display:flex;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.meaning1, .meaning2, .meaning3{
+    background-color: #FAD4D4;
+    margin-left: 20px; 
+    height: 300px;  
+    width:500px; 
+    
+}
+.meaning3{
+    margin-right: 20px;
+}
+
+.bbwhead{
+    margin-top: 20px; 
+}
+
+.bbwpara{
+    margin-top: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*BOX2 ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#box-3{
+    width:100%;
+    height:auto;
+    margin-bottom: 40px;
+}
+
+.img-cont-box3{
+    display: flex;
+    padding-top: 20px;
+}
+
+.mental{
+    width:380px;
+    height:380px;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.content-box3{
+  background-color: #EF9F9F;
+  margin-right: 20px;
+  border-radius: 5px;
+
+}
+
+.content-box3 h2{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.content-box3 p{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.popnews{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!THIS MARKS THE END OF HOME PAGE, THANKS BE TO GOD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/*!!!!!!!!!!!!!!!!!!!THIS IS THE BEGINNING OF THE BEAUTY PAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#beauty-box1{
+    width:90%;
+    height:auto;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.beauty-block1{
+    display:flex;
+    margin-top: 80px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.christmas{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.beauty-content{
+    margin-right: 40px;
+    font-size:20px;
+    margin-left: 40px;
+    background-color: #FFF2F2;
+}
+
+.beauty-content{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first-para{
+    padding-bottom: 20px;
+}
+.beauty-content h1{
+    padding-bottom: 20px;
+}
+
+/* BOX 1 ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#beauty-box2{
+    width:100%;
+    height:auto;
+}
+
+.beautybox2-content{
+    display:flex;
+    justify-content: center;
+}
+
+.beautyparts-img{
+    width:450px;
+    height:380px;
+}
+
+.img1, .img2{
+    margin-right: 30px;
+}
+
+.img1, .img2, .img3{
+    border-radius: 10px;
+}
+
+.beauty-parts1, .beauty-parts2, .beauty-parts3{
+    text-align: center;
+    color: #ffffff;
+    position: relative;    
+}
+
+.mbw{
+    margin-left:60px;
+    margin-bottom: 40px;
+}
+
+.beautyhead{
+    position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.beautyhead:hover{
+    color:#000000;
+}
+/*BOX 2 BEAUTY ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#beauty-box3{
+    width:100%;
+    height:auto;
+    background-color: #FAD4D4;
+    margin-top: 20px;
+
+    /*flex-wrap: wrap;*/
+    text-align: left; 
+}
+
+.beatface{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.steps{
+    display:flex;
+    background-color: #FAD4D4;
+    margin-top: 20px;
+    padding-bottom: 40px;
+   
+}
+
+.steps1-4{
+    display: block;
+    padding-right: 20px;
+}
+
+
+.steps5-8{
+    display: block;
+    width: 1640px;
+    padding-right: 20px;
+}
+
+.block1-1,.block2, .block3, .block4, .block5, .block6, .block-7, .block-8{
+   padding-left: 20px;
+    
+
+ } 
+
+.block p{
+    margin-top:6px;
+    font-size: 16px;
+    margin-left: 4px;
+    padding-top: 5px;
+}
+
+.block h3{
+    padding-top: 20px;
+}
+
+
+/*END OF BOX 3 BEAUTY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#beauty-box4{
+    width:100%;
+    height:auto;
+    padding-top: 20px;
+}
+
+#beauty-box4 h1{
+
+    margin-left: 70px;
+}
+
+.beautybox4-content{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom:40px ;
+    padding-left: 50px;
+    padding-right: 50px ;
+    font-size: 17px;
+}
+
+.Zuri, .Kai-Lee, .Chelsea{
+    background-color: #FAD4D4;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Zuri{
+    margin-left: 20px;   
+}
+
+.zuri-img, .kailee-img, .chelsea-img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;    
+}
+
+.name{
+    padding-bottom: 20px;
+}
+
+.makeup-tent, .name{
+    padding-top:20px;
+}
+
+/*END OF BOX 4 BEAUTY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*END OF BEAUTY SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+/*START OF WOMEN'S WELLNESS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#wellness-box1{
+    padding-top:80px;
+    
+    margin-bottom: 80px;
+    width:100%;
+    height:auto;
+}
+
+.wellnessbox1-content{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    text-align:center;     
+}
+
+.wellnessbox1-content p{
+    font-size: 25px;
+    padding-top: 20px; 
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;      
+}
+
+.spa{
+    width:380px;
+    height:380px;     
+}
+/*END OF WELLNESS BOX 1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#wellness-box2{
+    width:100%;
+    height:auto;
+    margin-bottom: 20px; 
+}
+
+.staying-healthy{
+    padding-left: 20px;   
+}
+
+.wellness-content2{
+    display:flex;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sleep, .life-dis, .workout{
+    background-color: #FAD4D4;
+    margin-left: 20px; 
+    height: auto;  
+    width:500px; 
+    padding-bottom: 20px;
+}
+
+.workout{
+    margin-right: 20px;
+}
+
+.wellnessbox2-head{
+    margin-top: 20px; 
+}
+
+.wellness2-para{
+    margin-top: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*WELLNESS BOX 2 ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+#wellness-box3{
+    width:90%;
+    height:auto;
+    padding-top: 40px;
+    margin-bottom: 40px; 
+}
+
+.juicing{
+    display:flex;
+    margin-top: 80px;
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.juicing-img{
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.wellness-content3{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.juicing-para{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #FFF2F2;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.wellness-content3 h1{
+    padding-bottom: 20px; 
+}
+
+/*BOX 3 ENDS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+/*BOX 4 STARTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+#wellness-box4{
+    width:90%;
+    height:auto;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.pregnancy{
+    padding-bottom: 2px;
+    padding-left: 40px; 
+}
+
+.wellness-content4{
+    display:flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 40px;
+
+}
+
+.wellness-content4 p{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #FFF2F2;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.pregnancy-img{
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+/*CONTACT PAGE STARTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.container{
+    width:80%;
+    margin:50px auto;
+    padding-top: 120px;
+    
+} 
+
+.contact-box{
+    background-color: #ffffff;
+    display:flex;
+}
+
+.signup-form{
+    flex-basis:60%;
+    padding: 40px 60px;
+}
+
+.contactinfo{
+    flex-basis:40%;
+    padding: 40px;
+    background-color: #F47C7C;
+    color: #ffffff;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.signup{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width:100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline:none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding:10px;
+    box-sizing: border-box;    
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:#F47C7C;
+}
+button{
+    background: #EF9F9F;
+    width:100px;
+    border: none;
+    outline: none;
+    color:#ffffff;
+    height:35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px #FADADD; 
+}
+
+tr td:firstchild{
+padding-right: 20px;
+}
+
+.addressline, .emailline, .phoneline{
+    padding-left:20px;
+}
+
+tr td{
+    padding-top: 30px;
+    margin-right: 40px;
+}
+
+/*ERROR PAGE STARTS HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.block1{
+    padding-top: 190px;
+    justify-content: center;
+    margin-left: 390px;
+    margin-bottom: 140px;
+}
+.errorpage, .errorpara{
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* footer starts here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.footer-container{
+    background-color:#F47C7C; /* controls everything in the footer*/ 
+    color: #ffffff;
+    padding-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+}
+
+.footer{
+    background-color:#F47C7C;
+    display:flex;
+    flex-wrap: wrap;
+    height: 22vh;
+    width:80%;
+    margin:0 auto;
+    color: #ffffff;
+}
+
+.footer-block{
+    display:flex;
+    flex-direction: column;
+    margin-right: 10rem;
+    margin-left: 3rem;
+}
+
+.footer-block h3{
+    margin-top: 2rem;
+    
+}
+
+.footer-block a{
+    margin-top:6px;
+    font-size: 13px;
+    color:#ffffff;
+}
+
+.footer-block a:hover{
+    color: #000000;
+}
+
+h4{
+    font-size: 11px;
+}
+
+.copyright {                                  
+    margin-top: 6px;
+    margin-bottom: 0.2rem;
+}
+
+.bottom-footer{
+    padding-top: 24px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.fa-copyright{ 
+    font-size: 10px;
+}
+
